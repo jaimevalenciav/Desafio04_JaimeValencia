@@ -1,0 +1,27 @@
+
+    
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="product-form">
+        <h1>Agregar Producto</h1>
+        <textarea id="product-area" rows="10" cols="50"></textarea>
+        <li id="products"></li>
+        <form id="product-form">
+            <input type="text" id="product" required>
+            <input type="text" id="descripcion" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "websocketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "git": "^0.1.5",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2",
+    "socketio": "^1.0.0",
+    "sweetalert2": "^11.7.22"
+  }
+}
